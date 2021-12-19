@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: white;
+}
+
+header {
+    justify-content: center;
+    display: flex;
+    padding: 100px;    
+    height: 100vh !important;
+    position: relative;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header {
+    background-image: url(https://images.pexels.com/photos/6261691/pexels-photo-6261691.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+header a {
+    color: white;
+}
+
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+nav {
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 2px 2px 2px 2px black;
+    padding-bottom: 30px;
+}
+
+
+nav > a {
+    color: black;
+    padding: 70px;
+    padding-top: 15px;
+    background-color: burlywood;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 2px 0px 2px 2px rgb(83, 81, 81);
+    padding-bottom: 20px;
+}
+
+
+nav >a:hover {
+    background-color:rgb(240, 210, 172);
+    color: black;
+}
+
+h1.titulo1 {
+    font-size: 50px;
+}
+
+main {
+    max-width: 1200px;
+    min-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+main  p {
+    color: black;
+}
+
+main h2.titulo2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.docegostoso {
+    background-image: url('https://images.pexels.com/photos/132694/pexels-photo-132694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh !important;
+    margin-top: 50px;
+}
+
+.docegostoso >  h2 {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.texto2 {
+
+    margin-top: 30px;
+}
+
+div {
+    text-align: center;
+    margin-top: 30px;
+}
+
+ main h2.titulo3 {
+     margin-top: 50px;
+     margin-bottom: 30px;
+ }
+
+footer {
+    background-color: burlywood;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+ 
+footer > a {
+    color: black;
+    font-weight: bold;
+}

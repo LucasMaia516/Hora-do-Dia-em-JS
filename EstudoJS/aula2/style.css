@@ -1,0 +1,19 @@
+.balao {
+
+margin-top: 60px;
+width: 50px;
+height: 60px;
+background-color:rgb(81, 81, 197);
+border-radius: 30px;
+position: absolute;
+    
+}
+
+
+h3 {
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(to right, black, white);
+}

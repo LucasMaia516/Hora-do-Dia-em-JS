@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteando Números</title>
+</head>
+<body>
+    <h1>Sorteando Números</h1>
+
+
+    <script>
+    var numero1 = window.prompt('Jogador 1, escolhe um número');
+    numero1 = parseInt(numero1)
+    var numero2 = window.prompt('Jogado 2, escolhe outro número');
+    numero2 = parseInt(numero2)
+
+    if (numero1 === numero2){
+        window.alert('EMPATARAM!!!')
+    } else {
+        var nSorteado = parseInt(Math.random()* 2);
+        
+    }
+    </script>
+</body>
+</html>

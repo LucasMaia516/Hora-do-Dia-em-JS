@@ -1,0 +1,122 @@
+* {
+   padding: 0px;
+   margin: 0px; 
+}
+
+body {
+    background-image: linear-gradient(to right, black, rgba(32, 31, 31, 0.952));
+}
+
+header {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh !important;
+    position: relative;
+    
+}
+
+header {
+    background-image: url("https://twinfinite.net/wp-content/uploads/2019/01/resident-evil-2-6.jpg");
+}
+
+
+nav {
+   padding: 50px;
+   text-align: center;
+   padding-top: 20px;
+
+}
+
+nav > a {
+    background-color: rgb(148, 63, 63);
+    color: white;
+    box-shadow: 2px 0px 2px 0px rgb(248, 241, 241);
+    border-radius: 10px;
+    padding: 50px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    background-color: rgb(218, 143, 143);
+    color: black;
+    transition-duration: 0.5s;
+
+}
+
+
+article > h1 {
+    text-align: center;
+    color:white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to right, rgb(148, 63, 63), transparent);
+
+}
+
+article > p {
+    color: white;
+    text-indent: 30px;
+    text-align: center;
+    text-align: justify;
+    font-size: 25px;
+    padding: 70px;
+   
+}
+
+section {
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 100vh !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
+
+section {
+    background-image: url("https://1.bp.blogspot.com/-QCog2mO89DQ/Xulpel3KaNI/AAAAAAAAGxQ/7j5_0bao74YtDFUPChl-KxIyytsu-tPswCLcBGAsYHQ/s1600/resident-evil-village-chris-redfield-uhdpaper.com-4K-5.2053.jpg");
+}
+
+img.umbrella {
+    display: block;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+img.filme {
+    display: block;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+div {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+
+footer {
+    background-color: rgb(148, 63, 63);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+
+footer > a {
+    color: white;
+    font-weight: bold;
+}
